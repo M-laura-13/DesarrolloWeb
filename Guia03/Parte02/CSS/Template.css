@@ -14,3 +14,72 @@
 .app-card p{
     color: rgb(44, 58, 212);
 }
+.app-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.app-card button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.app-card button:hover {
+    background-color: darkviolet;
+}
+
+.app-card .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+/* Estilos para las tarjetas */
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.card .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card .desc {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.card .price {
+    font-size: 1.1rem;
+    color: #007BFF;
+    margin: 10px 0;
+}
