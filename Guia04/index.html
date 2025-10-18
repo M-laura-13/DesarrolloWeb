@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<!-- p4 significa padding -->
+
+<body class="p-4">
+    <!--<div class="container text-center"> clases de bootstrap, container-fluid toda la pantalla -->
+    <!--<div class="row">
+      <div class="col bg-primary text-white">Columna 1</div>  col=columna, bg primary es el backgraund, el text white estilo de bootstrap-->
+    <!--<div class="col bg-secondary text-white">Columna 2</div>-->
+    <!--<div class="col bg-success text-white">Columna 3</div>-->
+    <!--</div>
+</div>-->
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col bg-primary ">Header</div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Empresa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col bg-body-tertiary">Menu</div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-success-subtle">
+                <div id="carouselExample" class="carousel slide" style="width: 30rem">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://media.foodandtravel.mx/wp-content/uploads/2017/12/finlandia.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://lonelyplanetes.cdnstatics2.com/cdn/ff/cJ98wgAGF5Pb1oBpKHRrvteWGVCoYeljldKtVb2qDx4/1726132189/public/styles/1536x864_scale_crop/public/media/taiwan_pingxi_12431366033_dd02dc906b_k_www.flickr.comphotosjirka_matousek12431366033_jirkamatousek_flickr.jpg?itok=4Lib75pN"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://preview.redd.it/e39a70exdq481.png?auto=webp&s=fca07f0484bb654437281a227bc86b707c9552d4"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-9 bg-danger-subtle">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col bg-secondary-subtle">
+            <div class="card">
+                <div class="card-body">
+                    © Todos los derechos reservados.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
